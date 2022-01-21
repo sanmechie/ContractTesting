@@ -1,0 +1,60 @@
+I, [2022-01-21T15:56:42.203927 #3100]  INFO -- : Cleared interactions
+I, [2022-01-21T15:56:42.234926 #3100]  INFO -- : Registered expected interaction POST /countries
+D, [2022-01-21T15:56:42.234926 #3100] DEBUG -- : {
+  "description": "a request for UserA",
+  "providerState": "Service is Up",
+  "request": {
+    "method": "POST",
+    "path": "/countries",
+    "body": {
+      "name": "Germany",
+      "capital": "Berlin",
+      "area": 50000
+    }
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+    },
+    "body": {
+      "name": "Germany",
+      "capital": "Berlin",
+      "area": 50000
+    }
+  },
+  "metadata": null
+}
+I, [2022-01-21T15:56:42.250926 #3100]  INFO -- : Received request POST /countries
+D, [2022-01-21T15:56:42.251925 #3100] DEBUG -- : {
+  "path": "/countries",
+  "query": "",
+  "method": "post",
+  "body": {
+    "name": "Germany",
+    "capital": "Berlin",
+    "area": 50000
+  },
+  "headers": {
+    "Content-Length": "55",
+    "Content-Type": "application/json",
+    "Host": "localhost:1234",
+    "User-Agent": "python-requests/2.27.1",
+    "Accept-Encoding": "gzip, deflate",
+    "Accept": "*/*",
+    "Connection": "keep-alive",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2022-01-21T15:56:42.254926 #3100]  INFO -- : Found matching response for POST /countries
+D, [2022-01-21T15:56:42.254926 #3100] DEBUG -- : {
+  "status": 201,
+  "headers": {
+  },
+  "body": {
+    "name": "Germany",
+    "capital": "Berlin",
+    "area": 50000
+  }
+}
+I, [2022-01-21T15:56:42.281922 #3100]  INFO -- : Verifying - interactions matched
+I, [2022-01-21T15:56:42.295925 #3100]  INFO -- : Writing pact for Provider to C:/Python/pact-pythonissue/src/consumer-provider.json

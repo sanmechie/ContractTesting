@@ -1,0 +1,36 @@
+# Logfile created on 2022-01-21 12:59:46 +0530 by logger.rb/47272
+I, [2022-01-21T12:59:46.768837 #19248]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /countries returns a response which has status code 201'
+I, [2022-01-21T12:59:46.770837 #19248]  INFO -- : Sending POST request to path: "/countries" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T12:59:46.770837 #19248] DEBUG -- : body :{"name":"Germany","capital":"Berlin"}
+I, [2022-01-21T12:59:49.004899 #19248]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 07:29:48 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T12:59:49.006899 #19248] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T14:27:21.252860 #2376]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /countries returns a response which has status code 201'
+I, [2022-01-21T14:27:21.253860 #2376]  INFO -- : Sending POST request to path: "/countries" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T14:27:21.254860 #2376] DEBUG -- : body :{"name":"Germany","capital":"Berlin"}
+I, [2022-01-21T14:27:23.438900 #2376]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 08:57:22 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T14:27:23.439900 #2376] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T15:27:44.527780 #348]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /countries returns a response which has status code 201'
+I, [2022-01-21T15:27:44.529783 #348]  INFO -- : Sending POST request to path: "/countries" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T15:27:44.530782 #348] DEBUG -- : body :{"name":"Germany","capital":"Berlin"}
+I, [2022-01-21T15:27:46.625475 #348]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 09:57:45 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T15:27:46.625475 #348] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T15:52:20.935473 #10912]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /country returns a response which has status code 201'
+I, [2022-01-21T15:52:20.938426 #10912]  INFO -- : Sending POST request to path: "/country" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T15:52:20.939428 #10912] DEBUG -- : body :{"name":"Germany","capital":"Berlin","area":50000}
+I, [2022-01-21T15:52:23.031922 #10912]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 10:22:22 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T15:52:23.032917 #10912] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T15:54:30.617799 #2572]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /country returns a response which has status code 201'
+I, [2022-01-21T15:54:30.619800 #2572]  INFO -- : Sending POST request to path: "/country" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T15:54:30.620801 #2572] DEBUG -- : body :{"name":"Germany","capital":"Berlin","area":50000}
+I, [2022-01-21T15:54:32.725456 #2572]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 10:24:31 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T15:54:32.726453 #2572] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T15:55:27.568996 #27288]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /countries returns a response which has status code 201'
+I, [2022-01-21T15:55:27.569992 #27288]  INFO -- : Sending POST request to path: "/countries" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T15:55:27.572995 #27288] DEBUG -- : body :{"name":"Germany","capital":"Berlin","area":50000}
+I, [2022-01-21T15:55:29.705136 #27288]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 10:25:29 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T15:55:29.706135 #27288] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}
+I, [2022-01-21T15:58:39.097241 #7680]  INFO -- : Running example 'Verifying a pact between Consumer and Provider Given Service is Up a request for UserA with POST /countries returns a response which has status code 201'
+I, [2022-01-21T15:58:39.098239 #7680]  INFO -- : Sending POST request to path: "/countries" with headers: {"X_PACT_PROVIDER_STATES"=>[{"name"=>"Service is Up"}]}, see debug logs for body
+D, [2022-01-21T15:58:39.099242 #7680] DEBUG -- : body :{"name":"Germany","capital":"Berlin","area":50000}
+I, [2022-01-21T15:58:41.237108 #7680]  INFO -- : Received response with status: 422, headers: {"Date"=>"Fri, 21 Jan 2022 10:28:40 GMT", "Server"=>"uvicorn", "Content-Length"=>"88", "Content-Type"=>"application/json"}, see debug logs for body
+D, [2022-01-21T15:58:41.239111 #7680] DEBUG -- : body: {"detail":[{"loc":["body"],"msg":"value is not a valid dict","type":"type_error.dict"}]}

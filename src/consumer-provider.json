@@ -1,0 +1,38 @@
+{
+  "consumer": {
+    "name": "Consumer"
+  },
+  "provider": {
+    "name": "Provider"
+  },
+  "interactions": [
+    {
+      "description": "a request for UserA",
+      "providerState": "Service is Up",
+      "request": {
+        "method": "POST",
+        "path": "/countries",
+        "body": {
+          "name": "Germany",
+          "capital": "Berlin",
+          "area": 50000
+        }
+      },
+      "response": {
+        "status": 201,
+        "headers": {
+        },
+        "body": {
+          "name": "Germany",
+          "capital": "Berlin",
+          "area": 50000
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
